@@ -31,6 +31,10 @@ nav a li:hover{
   background-color: #333333;
 }
 
+.main-content-image{
+  font-size: 0px;
+}
+
 main{
  overflow: hidden;
 }
