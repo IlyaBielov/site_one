@@ -3,6 +3,21 @@
 A small static fan site about the racing game **Asphalt 9: Legends**, built as practice for an
 HTML5 & CSS3 course. Two pages, plain HTML and CSS, no build step and no JavaScript.
 
+## Screenshots
+
+<table>
+  <tr>
+    <th>Home (1280 px)</th>
+    <th>About (1280 px)</th>
+    <th>Home on a phone</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/screenshots/home-desktop.jpg" alt="Home page on desktop" width="360"></td>
+    <td valign="top"><img src="docs/screenshots/about-desktop.jpg" alt="About page on desktop" width="360"></td>
+    <td valign="top"><img src="docs/screenshots/home-mobile.jpg" alt="Home page on a phone" width="180"></td>
+  </tr>
+</table>
+
 ## Pages
 
 | Page | File | What's on it |
@@ -28,9 +43,10 @@ python3 -m http.server 8000
 │   └── about.html      # About page
 ├── css/
 │   └── style.css       # Shared styles for both pages
-└── images/
-    ├── logo.png
-    └── main-content-image.jpg
+├── images/
+│   ├── logo.png
+│   └── main-content-image.jpg
+└── docs/screenshots/   # Screenshots for this README
 ```
 
 ## What it practices
